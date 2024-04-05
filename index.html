@@ -1,45 +1,116 @@
 <!DOCTYPE html>
-  <html>
-    <head>
-	  <title> 
-	     CornHub
-	  </title>
-	</head>
-    <body> 
-	
-	  <div>
-	     <body style="background-color:black;">
-	     <h2 style="background-color:orange;"><marquee direction="left" behavior="scroll" scrollamount="5">Берем кукурузы початок, удивляем вечером девчаток! Самая горячая кукуруза мира. Варенная кукуруза смотреть онлайн. Береги свой початок смолоду.</marquee></h2>
-		 <!--<p style="color:white;text-indent:40px;"><b><a href="file:///C:/Users/PC/Desktop/CornHub/CornHub.html">ВОЙТИ</a></b></p>-->
-	     <p style="text-align:center;"><img src="https://i.ytimg.com/vi/_SVXZd2s8v4/maxresdefault.jpg" alt="CHCommunity" height="100%" width="100%"></p>
-</div>
-	    <div>
-		     <p style="text-align:center;">
-<!--<label for="pass">Password (8 characters minimum):</label>-->
-  <input type="password" id="pass" name="password" minlength="8" required />
-  <input type="submit" value="Sign in" />
-		     </p>
-	</div>
+<html>
+<head>
 
-	<!--<button type="button"><a href="file:///C:/Users/PC/Desktop/CornHub/CornHub.html">ВОЙТИ</a></button>
-	<button class="my-button">Click me</button>-->
-
-<!--<style>
-.my-button {
-  background-color: blue;
+<style>
+.age-control
+{
+  box-sizing: border-box;
+  background-image: url(https://i.ytimg.com/vi/_SVXZd2s8v4/maxresdefault.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: black;
+  font-family: verdana;
+  font-size: 120%;
+  border: 2px solid white;
   color: white;
-  border: none;
-  padding: 20px 20px;
+  width: 600px;
+  height: 850px;
+  margin: 50px 500px;
+  padding: 30px;
+  }
+</style>
+
+<style>
+.btn-different{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.slide-btns {
+	position: relative;
+  color: #fff;
+  font-size: 0.950em;
+  text-transform:  uppercase;
+  background: #83bec5;
+  border: 1px solid #527c82;
+  padding: 10px 30px;
+  margin: 15px;  
+  z-index: 1;
+  overflow: hidden;
+}
+.slide-btns:hover {
+  color: #83bec5;
+  text-decoration: none;
+}
+.slide-btns::after {
+  content: "";
+  background: #527c82;
+  position: absolute;
+  z-index: -1;
+
+  display: block;
+}
+.slide-btns[class^="slide"]::after {
+  transition: all 0.60s;
+}
+.slide-btns[class^="slide"]:hover::after {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all 0.60s;
 }
 </style>
-	<marquee direction="down" width="1000" height="1000" behavior="alternate" style="border:solid">
-  <marquee behavior="alternate"><img src="./CornHub_files/maxresdefault(1).jpg" height="50%" width="50%"></marquee>
-</marquee>-->
-	
-	
-    
-	 <a href="page=1.html">0</a>
-	     <a href="XA2/audio.html">0</a>
-	</body>
-  </html>
 
+<style>
+.slide-btns.slide-d-right::after 
+{
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+}
+.slide-btns.slide-d-right:hover::after {
+  transform: skewX(-45deg) scale(2, 2);
+}
+</style>
+
+</head>
+<body>
+
+<body style="background-image: url(https://img.freepik.com/free-photo/dried-corn-background_1150-7252.jpg);">
+
+<h2 style="background-color:orange;"><marquee direction="left" behavior="scroll" scrollamount="5" scrolldelay="5">Берем кукурузы початок, удивляем вечером девчаток! Самая горячая кукуруза мира. Варенная кукуруза смотреть онлайн. Первый кукурузный) Береги свой початок смолоду.</marquee></h2>
+
+<div class="age-control">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<BR>
+<BR>
+<p style="color:white;text-align:center;"> Данный сайт предназначен сугубо для лиц 18 лет и старше. Если вы моложе 18 лет, то, пожалуйста, покиньте этот сайт. Этот сайт содержит изображения, видео, аудио, текст для взрослых людей, занимающихся поеданием,приготовлением кукурузы. Если доступ и просмотр этих материалов не законен для Вас, пожалуйста, покиньте сайт прямо сейчас.
+Продолжая и подтверждая, что вам 18 лет и старше, вы самостоятельно подтверждаете доступ к просмотру материалов о кукурузе.
+Создатели этого сайта и поставщики услуг не несут никакой ответственности за Ваш выбор.
+Данный сайт не предназначен для совместного использования с лицами младше 18 лет и предназначен сугубо для персонального единоличного использования. Для согласия с вышеприведенной информацией, нажмите кнопку ПОДТВЕРДИТЬ.
+</p>
+<div>
+<p style="text-align:center;">
+<button class="slide-btns slide-d-right">ПОДТВЕРДИТЬ</button>
+</p>
+</div>
+</div>
+
+<form action="https://www.google.ru/">
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
