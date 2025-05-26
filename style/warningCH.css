@@ -1,7 +1,7 @@
 .age-control
 {
   box-sizing: border-box;
-  background-image: url(maxresdefault.jpg);
+  background-image: href="maxresdefault.jpg";
   background-size:contain;
   background-repeat: no-repeat;
   background-position: top;
